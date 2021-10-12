@@ -31,7 +31,7 @@ export default function App() {
     <div className="App">
       <h1>Emoji detector</h1>
       <input
-        placeholder="Search your emoji"
+        placeholder={"Search your emoji"}
         style={{ height: "1.5rem", padding: ".5rem", width: "50%" }}
         type="text"
         onChange={handleInput}

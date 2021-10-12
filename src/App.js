@@ -31,13 +31,14 @@ export default function App() {
     <div className="App">
       <h1>Emoji detector</h1>
       <input
-        style={{ height: "2rem", padding: ".5rem" }}
+        placeholder="Search your emoji"
+        style={{ height: "1.5rem", padding: ".5rem", width: "50%" }}
         type="text"
         onChange={handleInput}
       />
-      <h2>{emoji} </h2>
+      {/* <h2>{emoji} </h2> */}
       <div>
-        <h2>emojis we know</h2>
+        <h2>{emoji ? emoji : "emojis we know"}</h2>
         {onlyEmojiList.map((item) => {
           return (
             <span

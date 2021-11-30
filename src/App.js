@@ -6,7 +6,12 @@ const emojiList = {
   "😤": "angry",
   "🤳": "selfie",
   "😪": "bored",
-  "😶": "speechless"
+  "😶": "speechless",
+  "😔": "sad",
+  "😱": "shock",
+  "😴": "sleepy",
+  "🤗": "Hug",
+  "🤨": "confuse"
 };
 
 export default function App() {

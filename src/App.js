@@ -23,6 +23,11 @@ export default function App() {
     if (meaning === undefined) {
       meaning = "😶 we dont have this in our database.";
     }
+
+    if (inputEmoji == "") {
+      meaning = "emojis we know";
+    }
+
     setEmojiMeaning(meaning);
   }
 
